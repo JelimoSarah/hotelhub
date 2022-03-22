@@ -19,6 +19,7 @@ body{
 
 .nav-item a {
     color: rgb(255, 255, 255);
+    font-weight: bolder;
 }
 #nav-a{
     color: rgb(255, 255, 255);
@@ -30,7 +31,7 @@ body{
     
 }
 .home{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/roof-top-pool-3715118_1920.jpg");
+    background-image: linear-gradient(rgba(128, 197, 191, 0.6), rgba(0, 0, 0, 0.2)), url("../images/roof-top-pool-3715118_1920.jpg");
     /* background-image: url("../images/roof-top-pool-3715118_1920.jpg"); */
     height: 100vh;
     background-position: center;
@@ -71,4 +72,28 @@ body{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+/* adds section */
+.ads{
+    padding-top: 80px;
+}
+#card-1 p{
+/* font-weight: bolder; */
+}
+#card-1 h2{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    font-size: 50px;
+}
+#card-2 p{
+    padding: 20px 0;
+}
+#card-2 button{
+    /* padding-bottom: 20px; */
+    margin: 10px;
+    text-align: start;
+}
+#ads-col{
+    padding: 0 20px;
 }
