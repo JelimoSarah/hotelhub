@@ -18,14 +18,57 @@ body{
 }
 
 .nav-item a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #nav-a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-family: 'Lobster', cursive;
 }
 .nav-item a:hover{
-    color: rgb(63, 4, 4);
+    color: rgb(0, 0, 0);
     
+}
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/roof-top-pool-3715118_1920.jpg");
+    /* background-image: url("../images/roof-top-pool-3715118_1920.jpg"); */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bunner {
+    /* width: 90%; */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* padding: 30px 30px; */
+
+}
+.col-1 {
+    flex-basis: 50%;
+    min-width: 100%;
+}
+
+.col-1 h2 {
+    font-size: 55px;
+    line-height: 40px;
+    margin: 25px 0;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-1 p {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 35px 0;
+    justify-content: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
