@@ -105,15 +105,15 @@ body{
     font-weight: bolder;
 
 }
-.amenities-1 button{
+.amenities button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    /* float: right; */
+    margin-left: 0;
 
 }
 .amenities{
     padding-top: 80px;
 }
 .amenities-1{
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
