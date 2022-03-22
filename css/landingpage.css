@@ -97,3 +97,23 @@ body{
 #ads-col{
     padding: 0 20px;
 }
+/* Amenities and facilities section */
+
+.amenities-1 h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.amenities-1 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    /* float: right; */
+
+}
+.amenities{
+    padding-top: 80px;
+}
+.amenities-1{
+    padding-bottom: 40px;
+}
