@@ -196,9 +196,10 @@ body{
 #contacts{
     text-align: center;
     padding-top: 50px;
+    color: rgb(238, 232, 232);
 }
 .parallax {
-    background-image: url("../images/pool-384573_1920.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/kitchen-1336160_1920.jpg");
     background-size: 100%;
     background-attachment: fixed;
 
@@ -206,4 +207,22 @@ body{
 .parallax-inner {
     padding-top: 6%;
     padding-bottom: 6%;
+}
+.contact-1{
+    padding-top: 50px;
+}
+#contacts h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.call{
+    padding-top: 40px;
+}
+.call i{
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: bolder;
+
+
 }
