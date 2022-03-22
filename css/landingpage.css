@@ -226,3 +226,24 @@ body{
 
 
 }
+/* footer section */
+#footer-1{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding-top: 50px;
+}
+.footer-3{
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0; */
+    text-align: center;
+}
+.footer-3 i{
+    line-height: 30px;
+
+}
+.footer-2{
+    text-align: center;
+}
