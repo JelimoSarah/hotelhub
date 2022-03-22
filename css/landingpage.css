@@ -117,3 +117,25 @@ body{
 .amenities-1{
     margin-bottom: 40px;
 }
+#amenities-body h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 29px;
+}
+/* .card img{
+    height: 40vh;
+} */
+
+/* galley section */
+.title{
+    text-align: center;
+}
+.Gallery{
+    padding: 80px;
+}
+.title h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    /* font-size: 29px; */
+}
