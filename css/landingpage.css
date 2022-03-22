@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#navbarNav {
+    /* padding: 20px 20px; */
+    /* margin: 20px 20px; */
+}
+
+.nav-item {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-item a {
+    color: rgb(0, 0, 0);
+}
+#nav-a{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+.nav-item a:hover{
+    color: rgb(63, 4, 4);
+    
+}
