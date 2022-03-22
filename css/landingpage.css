@@ -179,3 +179,15 @@ body{
     width: 100%;
     margin-top: 10px; 
 }
+/* What Our Guests Say section */
+#rewiews img{
+    border-radius: 50%;
+    width: 15%;
+}
+.review{
+    display: flex;
+}
+.review h5{
+    margin-left: 20px;
+    /* margin: 30px; */
+}
