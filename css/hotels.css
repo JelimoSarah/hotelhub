@@ -29,3 +29,20 @@ nav ul li{
     width: 40VW;
     padding: 4% 0;
 }
+.hotel-photo{
+    width: 70%;
+}
+.hotel-description{
+    padding: 0 12%;
+}
+.hotels-available{
+    padding: 3% 16%;
+}
+.footer-area{
+    background-color: #26B6F4;
+    padding: 30px 150px;
+}
+
+#blacklogo{
+    height: 30vh;
+}
