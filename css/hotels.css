@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    background: #26B6F4;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 2%;
+
+}
+nav ul li{
+    margin: 0 30px;
+}
+#top-logo{
+    height: 10vh;
+}
+.description{
+    background: #26B6F4;
+}
+#check-hotels{
+    padding: 6% 0;
+}
+#display-photo{
+    width: 40VW;
+    padding: 4% 0;
+}
+.hotel-photo{
+    width: 70%;
+}
+.hotel-description{
+    padding: 0 12%;
+}
+.hotels-available{
+    padding: 3% 16%;
+}
+.footer-area{
+    background-color: #26B6F4;
+    padding: 30px 150px;
+}
+
+#blacklogo{
+    height: 30vh;
+}
