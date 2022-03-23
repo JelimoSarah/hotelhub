@@ -111,6 +111,22 @@ body{
     margin-left: 0;
 
 }
+.amenities button:hover{
+    background-color: rgb(238, 232, 232);
+    color: black;
+
+}
+.amenities a:hover{
+    background-color: rgb(238, 232, 232);
+    color: black;
+
+}
+.amenities a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 0;
+
+}
 .amenities{
     padding-top: 80px;
 }
