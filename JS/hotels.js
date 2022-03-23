@@ -1,11 +1,11 @@
 let i=0;
 let images=[];
 const TIME=3000;
-images[0] ="../images/display1.jpg";
-images[1] ="../images/display2.jpg";
-images[2] ="../images/display3.jpg";
-images[3] ="../images/display4.jpg";
-images[4] ="../images/display5.jpg";
+images[0] ="../images/hotelimages/display1.jpg";
+images[1] ="../images/hotelimages/display2.jpg";
+images[2] ="../images/hotelimages/display3.jpg";
+images[3] ="../images/hotelimages/display4.jpg";
+images[4] ="../images/hotelimages/display5.jpg";
 
 
 function slideshow(){
