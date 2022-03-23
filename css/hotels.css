@@ -19,3 +19,13 @@ nav ul li{
 #top-logo{
     height: 10vh;
 }
+.description{
+    background: #26B6F4;
+}
+#check-hotels{
+    padding: 6% 0;
+}
+#display-photo{
+    width: 40VW;
+    padding: 4% 0;
+}
