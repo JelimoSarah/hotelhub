@@ -240,8 +240,11 @@ body{
     /* padding: 20px 0; */
     text-align: center;
 }
-.footer-3 i{
-    line-height: 30px;
+.footer-3 .fa{
+/* padding-top: 28px; */
+font-size: 18px;
+padding-bottom: 30px;
+float: inline-start;
 
 }
 .footer-2{
