@@ -1,0 +1,16 @@
+body{
+    background-image: url(../images/hotels.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+.signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home{
+    text-align: right;
+}

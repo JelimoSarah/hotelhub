@@ -9,7 +9,7 @@
     <!-- Latest compiled and minified CSS -->
 
     <br>
-    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/login.css" rel="stylesheet" type="text/css">
 
     <!-- Latest compiled and minified JavaScript -->
 
@@ -23,23 +23,91 @@
 </head>
 
 <body>
-    <div class="card">
-        <img class="card-img" src="../images/hotels.jpg" alt="hotel" style="height: 100vh;">
-        <div class="card-img-overlay">
-            <br> 
+    <div class="container-fluid col-xs-6">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid" id="nav">
+                <a class="navbar-brand" id="nav-a">Hotel-Hub</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/hotels.html">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+        <br>
+        <div class="row">
+            <div class="col-xs-6 justify-content-end">
+                <a href="../index.html" class="  text-white"> Home</a>
+            
+            </div>
+        </div>
+        <div class="login">
+
+
             <h1 class="text-center text-white font-weight-bold "><strong>HOTEL HUB</strong></h1>
             <form id="form" name="userinput">
-                <div class="mx-auto" style="width: 200px;">
-                    <input id="userName" type="text" label="User name" name="User name" required>
-                <input id="password" type="text" label="Password" name="Password" required>
-                <button type="submit" > Log in </button>
+                <div class=" row">
+                    <label for="userName" class="col-sm-4 col-form-label mb-1 bg-dark text-white">Username</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="username" id="userName" required>
+                    </div>
+                </div>
+
+
+                <div class=" row">
+                    <label for="passWord" class="col-sm-4 col-form-label mb-1 bg-dark text-white">Password</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="passWord" id="password" required>
+                    </div>
+                </div>
+
+                <div class=" row ">
+                    <button type="submit" class="col mb-1 bg-dark text-white ">Log In</button>
+
+                </div>
+                <p class="text-center text-white">Don't have an account?</p>
+                <div class="row">
+                    <div class="col-xs-6 d-flex justify-content-center text-center">
+                        <a href="../pages/signup.html" class="  text-white"> Sign Up Here</a>
+                    
+                    </div>
                 </div>
                 
 
-                
             </form>
+
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+
 
 </body>
 
