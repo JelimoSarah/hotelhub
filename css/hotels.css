@@ -1,0 +1,74 @@
+body{
+    overflow-x: hidden;
+}
+.navigation{
+    background-color: #80c5bf99;
+}
+.nav-item {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+#nav-a{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+.nav-item a:hover{
+    color: rgb(0, 60, 255);
+    
+}
+/* style description */
+.description{ 
+    background-image: linear-gradient(#80c5bf99, rgba(235, 235, 235, 0.1));
+    color: white;
+    padding-bottom: 6%;
+}
+#check-hotels{
+    padding: 6% 0;
+}
+#display-photo{
+    width: 40VW;
+    padding: 4% 0;
+}
+.hotel-photo{
+    width: 70%;
+}
+.hotel-description{
+    padding: 0 12%;
+}
+.hotels-available{
+    padding: 3% 16%;
+}
+
+/* footer section */
+.contact-section{
+    background: linear-gradient(rgba(235, 235, 235, 0.1),#80c5bf99);
+}
+#footer-1{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding-top: 50px;
+}
+.footer-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-3 .fa{
+/* padding-top: 28px; */
+font-size: 18px;
+padding-bottom: 30px;
+float: inline-start;
+
+}
+.footer-2{
+    text-align: center;
+}
