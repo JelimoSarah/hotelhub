@@ -1,3 +1,11 @@
+// responsive navigation bar click start
+$('.button').click(function(){
+  $('.items').toggleClass("show");
+
+});
+// responsive navigation bar click end
+
+
 let i=0;
 let images=[];
 const TIME=3000;

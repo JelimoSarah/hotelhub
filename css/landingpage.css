@@ -6,12 +6,9 @@
 body{
     overflow-x: hidden;
 }
-#navbarNav {
-    /* padding: 20px 20px; */
-    /* margin: 20px 20px; */
-}
 
-.nav-item {
+
+/* .nav-item {
     padding: 20px;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -36,7 +33,7 @@ body{
 }
 .navbar-toggler-icon{
     color: rgb(202, 32, 32);
-}
+} */
 /* .Navbar-Link-toggle .fa {
     display: none;
   }
@@ -301,17 +298,105 @@ float: inline-start;
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+  /* navbar styling start*/
+
+nav{
+    background: rgba(128, 197, 191, 0.6);
+    padding: 10px 40px 10px 70px;
+    border: 2.7px solid rgba(128, 197, 191, 0.6);
+    border-left: none;
+    border-right: none;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li.logo{
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  nav ul div.items{
+    padding: 0 25px;
+    display: inline-flex;
+  }
+  nav ul div.items a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 16px;
+    color: white;
+    font-weight: bolder;
+  }
+  nav ul div.items a:hover{
+    color: rgb(0, 0, 0);
+  }
+  .button{
+      display: none;
+    }
+  
+  /* @media screen and (max-width: 800px){
+    .button{
+      display: block;
+    }
+    nav ul div.items{
+      position: fixed;
+      top: -280px;
+      right: 0;
+      width: 100%;
+      background: linear-gradient(#80c5bf99, rgba(235, 235, 235, 0.1));
+      display: inline-block;
+      transition: top .4s;
+      
+    }
+    nav ul div.items.show{
+      top: 60px;
+    }
+    nav ul div.items li{
+      text-align: center;
+      line-height: 30px;
+      margin: 30px 0;
+      
+  
+    }
+    nav ul div.items li a{
+      font-size: 19px;
+    }
+  } */
+  /* end of navbar styling */
   @media screen and (max-width: 990px){
 
-    /* toggle button */
-    /* .Navbar__Link-toggle .fa{
-        display: block;
-        visibility: visible;
+    
 
-    } */
-    /* #navbarNav {
-        display: none;
-    } */
+    .button{
+        display: block;
+      }
+      nav ul div.items{
+        position: fixed;
+        top: -100%;
+        right: 0;
+        width: 100%;
+        background: linear-gradient(#80c5bf99, rgba(235, 235, 235, 0.1));
+        display: inline-block;
+        transition: top .4s;
+        
+      }
+      nav ul div.items.show{
+        top: 60px;
+      }
+      nav ul div.items li{
+        text-align: center;
+        line-height: 30px;
+        margin: 30px 0;
+        
+      }
+      nav ul div.items li a{
+        font-size: 19px;
+      }
     #caleb{
         display: none;
     }
@@ -329,9 +414,6 @@ font-size: 30px;
     .call .fa{
         font-size: 25px;
     }
-    
-    
-    
     
     .footer-2 h2{
         font-size: 20px;

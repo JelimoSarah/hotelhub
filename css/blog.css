@@ -3,32 +3,69 @@
 	padding:0;
 	box-sizing:  border-box;
 }
-.nav-item {
-    padding: 20px;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-}
-
-.nav-item a {
-    color: black;
-    font-weight: bolder;
-}
-#nav-a{
-    color:black;
-    font-size: 35px;
-    font-family: 'Lobster', cursive;
-}
-.nav-item a:hover{
-    color: rgb(0, 0, 0);
-    
-}
-#nav button{
-    color: black;
-    text-decoration: black;
-}
-.navbar-toggler-icon{
-    color: rgb(202, 32, 32);
-}
+nav{
+    background: rgba(128, 197, 191, 0.6);
+    padding: 10px 40px 10px 70px;
+    border: 2.7px solid rgba(128, 197, 191, 0.6);
+    border-left: none;
+    border-right: none;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li.logo{
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  nav ul div.items{
+    padding: 0 25px;
+    display: inline-flex;
+  }
+  nav ul div.items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 12px;
+  }
+  nav ul div.items a:hover{
+    color: cyan;
+  }
+  .button{
+      display: none;
+    }
+  
+  @media screen and (max-width: 800px){
+    .button{
+      display: block;
+    }
+    nav ul div.items{
+      position: fixed;
+      top: -280px;
+      right: 0;
+      width: 100%;
+      background: linear-gradient(#80c5bf99, rgba(235, 235, 235, 0.1));
+      display: inline-block;
+      transition: top .4s;
+      
+    }
+    nav ul div.items.show{
+      top: 60px;
+    }
+    nav ul div.items li{
+      text-align: center;
+      line-height: 30px;
+      margin: 30px 0;
+      
+  
+    }
+    nav ul div.items li a{
+      font-size: 19px;
+    }
+  }
 
 .header{
     background-color: black;
@@ -72,6 +109,7 @@
 
 }
 .container-xl{
+    padding: 0% 10%;
     display: flex;
     justify-content: space-around;
     
@@ -209,16 +247,25 @@ text-align: center;
     
 }
 .centre {
+    padding: 30px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+
+
 }
 .home{
+    padding: 0 17%;
     text-align: center;
     justify-content: center;
 }
 h3{
     text-align: center;
+}
+
+
+#post-image{
+    width: 20vw;
 }
 #footer-1{
     display: flex;
@@ -276,11 +323,7 @@ float: inline-start;
         margin-left: 30px;
         width: 50%;
     }
-    .centre{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
 
 }
 @media screen and (max-width: 990px){
