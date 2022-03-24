@@ -30,6 +30,13 @@ body{
     color: rgb(0, 0, 0);
     
 }
+.nav button{
+    color: black;
+    text-decoration: black;
+}
+.navbar-toggler-icon{
+    color: #000;
+}
 .home{
     background-image: linear-gradient(rgba(128, 197, 191, 0.6), rgba(0, 0, 0, 0.2)), url("../images/roof-top-pool-3715118_1920.jpg");
     /* background-image: url("../images/roof-top-pool-3715118_1920.jpg"); */
@@ -284,4 +291,125 @@ float: inline-start;
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+  }
+  @media screen and (max-width: 990px){
+    #contacts h2{
+font-size: 30px;
+    }
+    #contacts p{
+        font-size: 15px;
+    }
+    .call h2{
+        font-size: 15px;
+    }
+    .call .fa{
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    .footer-2 h2{
+        font-size: 20px;
+    }
+    .footer-2 p{
+        font-size: 15px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 20px;
+
+    }
+    .footer-3 .fa{
+        font-size: 15px;
+
+    }
+  }
+  @media screen and (max-width: 776px){
+    #ads-colums{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        /* background-color: brown; */
+    }
+    #ads-col{
+        width: 100%;
+        /* background-color: chartreuse; */
+    }
+    .row{
+        width: 100%;
+    }
+    #coll-4{
+        width: 100%;
+    }
+    .for-image-2 img{
+        /* padding-bottom: 20px; */
+    }
+    #contacts h2{
+        font-size: 25px;
+            }
+    .footer-2 h2{
+        font-size: 15px;
+    }
+    .footer-2 p{
+        font-size: 13px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 15px;
+
+    }
+    .footer-3 .fa{
+        font-size: 13px;
+
+    }
+  }
+  @media screen and (max-width: 562px){
+    .title h2{
+        font-size: 19px;
+    }
+    #contacts p{
+        font-size: 11px;
+    }
+    .call h4{
+        font-size: 15px;
+    }
+    .call .fa{
+        font-size: 15px;
+    }
+    
+    #contacts h2{
+        font-size: 18px;
+            }
+    .footer-2 h2{
+        font-size: 12px;
+    }
+    .footer-2 p{
+        font-size: 8px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 12px;
+
+    }
+    .footer-3 .fa{
+        font-size: 8px;
+
+    }
   }
