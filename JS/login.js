@@ -1,11 +1,24 @@
 $("#reload-page").click(()=>{
     $(".sign-up-now").show();
+<<<<<<< HEAD
     $(".wrong-password").hide();
 });
+=======
+    $(".wrong-password").hide();    
+
+});
+
+
+
+>>>>>>> development
 let submitButton = document.getElementById("submit-btn");
 submitButton.addEventListener("click",(e)=> {e.preventDefault();
     let attempts = 3;
 // $("#submit-btn").click(()=>{
+<<<<<<< HEAD
+=======
+  
+>>>>>>> development
     function validate(){
         let username = $("#user-name").val();
         let password = $ ("#password").val();
@@ -23,6 +36,7 @@ submitButton.addEventListener("click",(e)=> {e.preventDefault();
             }
    validate()
 });
+<<<<<<< HEAD
 
 
 
@@ -30,3 +44,5 @@ submitButton.addEventListener("click",(e)=> {e.preventDefault();
 
 
 
+=======
+>>>>>>> development
