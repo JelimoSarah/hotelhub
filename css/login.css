@@ -2,13 +2,11 @@
     /* padding: 20px 20px; */
     /* margin: 20px 20px; */
 }
-
 .nav-item {
     padding: 20px;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
-
 .nav-item a {
     color: rgb(255, 255, 255);
     font-weight: bolder;
@@ -20,14 +18,12 @@
 }
 .nav-item a:hover{
     color: rgb(0, 0, 0);
-    
 }
 label {
     display: inline-block;
     width: 150px;
     text-align: right;
   }
-
 .test{
     padding:50px;
     background-color: red;
