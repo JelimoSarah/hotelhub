@@ -1,7 +1,4 @@
-$("#reload-page").click(()=>{
-    $(".sign-up-now").show();
-    $(".wrong-password").hide();
-});
+
 let submitButton = document.getElementById("submit-btn");
 submitButton.addEventListener("click",(e)=> {e.preventDefault();
     let attempts = 3;
