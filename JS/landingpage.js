@@ -1,3 +1,14 @@
+// let toggle = document.getElementsByClassName("btnss");
+// toggle.addEventListener("click",(e)=> {e.preventDefault();
+//   alert("hi")
+// });
+// $("#submit-btn").click(function () {
+//   alert("hi")
+//   });
+// $(".btnss")("click",(e)=> {e.preventDefault();
+// $("#caleb").show();
+// });
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
@@ -17,3 +28,11 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+// function classToggle() {
+//   const navs = document.querySelectorAll('.Navbar__Items')
+  
+//   navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+// }
+
+// document.querySelector('.Navbar__Link-toggle')
+//   .addEventListener('click', classToggle);
