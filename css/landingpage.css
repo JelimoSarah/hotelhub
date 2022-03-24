@@ -331,16 +331,31 @@ font-size: 30px;
     }
   }
   @media screen and (max-width: 776px){
+    .col-1 button{
+        font-size: 15px;
+    }
+    .bunner h2{
+        font-size: 27px;
+
+    }
+    .bunner p{
+        font-size: 18px;
+
+    }
+    .amenities-1 h2{
+       font-size: 30px;
+   }
     #ads-colums{
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
         width: 100%;
-        /* background-color: brown; */
     }
     #ads-col{
         width: 100%;
-        /* background-color: chartreuse; */
+    }
+    #ads-col h2{
+        font-size: 28px;
     }
     .row{
         width: 100%;
@@ -348,9 +363,7 @@ font-size: 30px;
     #coll-4{
         width: 100%;
     }
-    .for-image-2 img{
-        /* padding-bottom: 20px; */
-    }
+   
     #contacts h2{
         font-size: 25px;
             }
@@ -376,6 +389,12 @@ font-size: 30px;
     }
   }
   @media screen and (max-width: 562px){
+    .amenities-1 h2{
+        font-size: 24px;
+    }
+    #ads-col h2{
+        font-size: 20px;
+    }
     .title h2{
         font-size: 19px;
     }
