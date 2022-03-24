@@ -30,13 +30,22 @@ body{
     color: rgb(0, 0, 0);
     
 }
-.nav button{
+#nav button{
     color: black;
     text-decoration: black;
 }
 .navbar-toggler-icon{
-    color: #000;
+    color: rgb(202, 32, 32);
 }
+/* .Navbar-Link-toggle .fa {
+    display: none;
+  }
+.Navbar-Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  } */
 .home{
     background-image: linear-gradient(rgba(128, 197, 191, 0.6), rgba(0, 0, 0, 0.2)), url("../images/roof-top-pool-3715118_1920.jpg");
     /* background-image: url("../images/roof-top-pool-3715118_1920.jpg"); */
@@ -293,6 +302,21 @@ float: inline-start;
     background-color: #555; /* Add a dark-grey background on hover */
   }
   @media screen and (max-width: 990px){
+
+    /* toggle button */
+    /* .Navbar__Link-toggle .fa{
+        display: block;
+        visibility: visible;
+
+    } */
+    /* #navbarNav {
+        display: none;
+    } */
+    #caleb{
+        display: none;
+    }
+
+
     #contacts h2{
 font-size: 30px;
     }
