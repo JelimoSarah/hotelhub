@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#navbarNav {
+    /* padding: 20px 20px; */
+    /* margin: 20px 20px; */
+}
+
+.nav-item {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+#nav-a{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+.nav-item a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+#nav button{
+    color: black;
+    text-decoration: black;
+}
+.navbar-toggler-icon{
+    color: rgb(202, 32, 32);
+}
+/* .Navbar-Link-toggle .fa {
+    display: none;
+  }
+.Navbar-Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  } */
+.home{
+    background-image: linear-gradient(rgba(128, 197, 191, 0.6), rgba(0, 0, 0, 0.2)), url("../images/roof-top-pool-3715118_1920.jpg");
+    /* background-image: url("../images/roof-top-pool-3715118_1920.jpg"); */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bunner {
+    /* width: 90%; */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* padding: 30px 30px; */
+
+}
+.col-1 {
+    flex-basis: 50%;
+    min-width: 100%;
+}
+
+.col-1 h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 25px 0;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-1 p {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 35px 0;
+    justify-content: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* adds section */
+.ads{
+    padding-top: 80px;
+}
+#card-1 p{
+/* font-weight: bolder; */
+}
+#card-1 h2{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    font-size: 50px;
+}
+#card-2 p{
+    padding: 20px 0;
+}
+#card-2 button{
+    /* padding-bottom: 20px; */
+    margin: 10px;
+    text-align: start;
+}
+#ads-col{
+    padding: 0 20px;
+}
+/* Amenities and facilities section */
+
+.amenities-1 h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.amenities button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 0;
+
+}
+.amenities button:hover{
+    background-color: rgb(238, 232, 232);
+    color: black;
+
+}
+.amenities a:hover{
+    background-color: rgb(238, 232, 232);
+    color: black;
+
+}
+.amenities a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 0;
+
+}
+.amenities{
+    padding-top: 80px;
+}
+.amenities-1{
+    margin-bottom: 40px;
+}
+#amenities-body h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 29px;
+}
+/* .card img{
+    height: 40vh;
+} */
+
+/* galley section */
+.title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Gallery{
+    padding: 80px;
+}
+.title h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.border {
+    width: 100px;
+    height: 6px;
+    background: black;
+    margin: 26px auto;
+
+}
+#for-image-1 img{
+    width: 100%;
+
+}
+#for-image-1{
+    width: 100%;
+    padding-top: 0;
+   
+}
+#for-image-2 img{
+    width: 100%;
+
+}
+#for-image-2{
+    width: 100%;
+    margin-top: 40px;
+   
+}
+
+#for-images img{
+    width: 100%;
+}
+#row-2{
+    padding-top: 30px;
+}
+#for-image-3{
+    width: 100%;
+    /* margin-top: 40px;  */
+}
+#for-image-3 img{
+    width: 100%;
+    margin-top: 10px; 
+}
+/* What Our Guests Say section */
+#rewiews img{
+    border-radius: 50%;
+    width: 15%;
+}
+.review{
+    display: flex;
+}
+.review h5{
+    margin-left: 20px;
+    /* margin: 30px; */
+}
+
+/* contact section */
+#contacts{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(238, 232, 232);
+}
+.parallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/kitchen-1336160_1920.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+.parallax-inner {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.contact-1{
+    padding-top: 50px;
+}
+#contacts h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.call{
+    padding-top: 40px;
+}
+.call i{
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: bolder;
+
+
+}
+/* footer section */
+#footer-1{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding-top: 50px;
+}
+.footer-3{
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0; */
+    text-align: center;
+}
+.footer-3 .fa{
+/* padding-top: 28px; */
+font-size: 18px;
+padding-bottom: 30px;
+float: inline-start;
+
+}
+.footer-2{
+    text-align: center;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  @media screen and (max-width: 990px){
+
+    /* toggle button */
+    /* .Navbar__Link-toggle .fa{
+        display: block;
+        visibility: visible;
+
+    } */
+    /* #navbarNav {
+        display: none;
+    } */
+    #caleb{
+        display: none;
+    }
+
+
+    #contacts h2{
+font-size: 30px;
+    }
+    #contacts p{
+        font-size: 15px;
+    }
+    .call h2{
+        font-size: 15px;
+    }
+    .call .fa{
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    .footer-2 h2{
+        font-size: 20px;
+    }
+    .footer-2 p{
+        font-size: 15px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 20px;
+
+    }
+    .footer-3 .fa{
+        font-size: 15px;
+
+    }
+  }
+  @media screen and (max-width: 776px){
+    .col-1 button{
+        font-size: 15px;
+    }
+    .bunner h2{
+        font-size: 27px;
+
+    }
+    .bunner p{
+        font-size: 18px;
+
+    }
+    .amenities-1 h2{
+       font-size: 30px;
+   }
+    #ads-colums{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+    #ads-col{
+        width: 100%;
+    }
+    #ads-col h2{
+        font-size: 28px;
+    }
+    .row{
+        width: 100%;
+    }
+    #coll-4{
+        width: 100%;
+    }
+   
+    #contacts h2{
+        font-size: 25px;
+            }
+    .footer-2 h2{
+        font-size: 15px;
+    }
+    .footer-2 p{
+        font-size: 13px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 15px;
+
+    }
+    .footer-3 .fa{
+        font-size: 13px;
+
+    }
+  }
+  @media screen and (max-width: 562px){
+    .amenities-1 h2{
+        font-size: 24px;
+    }
+    #ads-col h2{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 19px;
+    }
+    #contacts p{
+        font-size: 11px;
+    }
+    .call h4{
+        font-size: 15px;
+    }
+    .call .fa{
+        font-size: 15px;
+    }
+    
+    #contacts h2{
+        font-size: 18px;
+            }
+    .footer-2 h2{
+        font-size: 12px;
+    }
+    .footer-2 p{
+        font-size: 8px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 12px;
+
+    }
+    .footer-3 .fa{
+        font-size: 8px;
+
+    }
+  }
