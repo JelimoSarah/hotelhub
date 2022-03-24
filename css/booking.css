@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  background-image: linear-gradient(rgba(187, 204, 203, 0.6), rgba(189, 219, 215, 0.6));
+
+}
 
 .form-row{
     display: flex;

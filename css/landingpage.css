@@ -30,6 +30,22 @@ body{
     color: rgb(0, 0, 0);
     
 }
+#nav button{
+    color: black;
+    text-decoration: black;
+}
+.navbar-toggler-icon{
+    color: rgb(202, 32, 32);
+}
+/* .Navbar-Link-toggle .fa {
+    display: none;
+  }
+.Navbar-Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  } */
 .home{
     background-image: linear-gradient(rgba(128, 197, 191, 0.6), rgba(0, 0, 0, 0.2)), url("../images/roof-top-pool-3715118_1920.jpg");
     /* background-image: url("../images/roof-top-pool-3715118_1920.jpg"); */
@@ -56,7 +72,7 @@ body{
 }
 
 .col-1 h2 {
-    font-size: 55px;
+    font-size: 40px;
     line-height: 40px;
     margin: 25px 0;
     color: rgb(255, 255, 255);
@@ -106,6 +122,22 @@ body{
 
 }
 .amenities button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 0;
+
+}
+.amenities button:hover{
+    background-color: rgb(238, 232, 232);
+    color: black;
+
+}
+.amenities a:hover{
+    background-color: rgb(238, 232, 232);
+    color: black;
+
+}
+.amenities a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     margin-left: 0;
@@ -250,3 +282,177 @@ float: inline-start;
 .footer-2{
     text-align: center;
 }
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  @media screen and (max-width: 990px){
+
+    /* toggle button */
+    /* .Navbar__Link-toggle .fa{
+        display: block;
+        visibility: visible;
+
+    } */
+    /* #navbarNav {
+        display: none;
+    } */
+    #caleb{
+        display: none;
+    }
+
+
+    #contacts h2{
+font-size: 30px;
+    }
+    #contacts p{
+        font-size: 15px;
+    }
+    .call h2{
+        font-size: 15px;
+    }
+    .call .fa{
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    .footer-2 h2{
+        font-size: 20px;
+    }
+    .footer-2 p{
+        font-size: 15px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 20px;
+
+    }
+    .footer-3 .fa{
+        font-size: 15px;
+
+    }
+  }
+  @media screen and (max-width: 776px){
+    .col-1 button{
+        font-size: 15px;
+    }
+    .bunner h2{
+        font-size: 27px;
+
+    }
+    .bunner p{
+        font-size: 18px;
+
+    }
+    .amenities-1 h2{
+       font-size: 30px;
+   }
+    #ads-colums{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+    #ads-col{
+        width: 100%;
+    }
+    #ads-col h2{
+        font-size: 28px;
+    }
+    .row{
+        width: 100%;
+    }
+    #coll-4{
+        width: 100%;
+    }
+   
+    #contacts h2{
+        font-size: 25px;
+            }
+    .footer-2 h2{
+        font-size: 15px;
+    }
+    .footer-2 p{
+        font-size: 13px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 15px;
+
+    }
+    .footer-3 .fa{
+        font-size: 13px;
+
+    }
+  }
+  @media screen and (max-width: 562px){
+    .amenities-1 h2{
+        font-size: 24px;
+    }
+    #ads-col h2{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 19px;
+    }
+    #contacts p{
+        font-size: 11px;
+    }
+    .call h4{
+        font-size: 15px;
+    }
+    .call .fa{
+        font-size: 15px;
+    }
+    
+    #contacts h2{
+        font-size: 18px;
+            }
+    .footer-2 h2{
+        font-size: 12px;
+    }
+    .footer-2 p{
+        font-size: 8px;
+    }
+    .footer-2 {
+        width: 100%;
+    }
+    .footer-3{
+        width: 100%;
+    }
+    .footer-3 h2{
+        font-size: 12px;
+
+    }
+    .footer-3 .fa{
+        font-size: 8px;
+
+    }
+  }

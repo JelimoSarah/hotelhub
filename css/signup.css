@@ -14,3 +14,27 @@ body{
 .home{
     text-align: right;
 }
+#navbarNav {
+    /* padding: 20px 20px; */
+    /* margin: 20px 20px; */
+}
+
+.nav-item {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+#nav-a{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+.nav-item a:hover{
+    color: rgb(0, 0, 0);
+    
+}
