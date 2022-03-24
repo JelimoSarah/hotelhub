@@ -1,3 +1,9 @@
+$("#reload-page").click(()=>{
+    $(".sign-up-now").show();
+    $(".wrong-password").hide();    
+
+});
+
 
 
 let submitButton = document.getElementById("submit-btn");
@@ -13,17 +19,11 @@ submitButton.addEventListener("click",(e)=> {e.preventDefault();
              window.location = "../pages/booking.html"; // Allow Booking.
              return false;
              }
+             //You have enterd the wrong password
              else{
              attempts--;
-             alert("You have enterd the wrong password"+" You have "+ attempts +" attempts left !");
-             
-             // Disabling fields after 3 attempts.
-            //  if( attempts == 0){
-            //     document.getElementById("#user-name").disabled = true;
-            //     document.getElementById("#password").disabled = true;
-            //     document.getElementById("#submit").disabled = true;
-            //  return false;
-            //  }
+             $(".sign-up-now").hide();
+             $(".wrong-password").show();
              }
             }
    validate()
