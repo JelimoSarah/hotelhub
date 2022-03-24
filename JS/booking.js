@@ -1,5 +1,5 @@
 $("#submit-btn").click(function () {
-alert("hi")
+alert("Thank You for Booking with us, well get back to you Via email, Thanks Again")
 });
 
 
