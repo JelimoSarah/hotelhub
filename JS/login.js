@@ -1,13 +1,16 @@
+$('.button').click(function(){
+    $('.items').toggleClass("show");
+  
+  });
 
 let submitButton = document.getElementById("submit-btn");
 submitButton.addEventListener("click",(e)=> {e.preventDefault();
     let attempts = 3;
-// $("#submit-btn").click(()=>{
+
     function validate(){
         let username = $("#user-name").val();
         let password = $ ("#password").val();
-        //console.log(username,password)//remove
-         if ( username == "Andy" && password == "Access"){
+         if ( username == "Andy John" && password == "Access"){
              window.location = "../pages/booking.html"; // Allow Booking.
              return false;
              }
