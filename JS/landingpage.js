@@ -1,13 +1,9 @@
-// let toggle = document.getElementsByClassName("btnss");
-// toggle.addEventListener("click",(e)=> {e.preventDefault();
-//   alert("hi")
+// responsive navigation bar click start
+// $('.button').click(function(){
+//   $('.items').toggleClass("show");
+
 // });
-// $("#submit-btn").click(function () {
-//   alert("hi")
-//   });
-// $(".btnss")("click",(e)=> {e.preventDefault();
-// $("#caleb").show();
-// });
+// responsive navigation bar click end
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
@@ -36,3 +32,11 @@ function topFunction() {
 
 // document.querySelector('.Navbar__Link-toggle')
 //   .addEventListener('click', classToggle);
+
+
+// responsive navigation bar click start
+$('.button').click(function(){
+  $('.items').toggleClass("show");
+
+});
+// responsive navigation bar click end
