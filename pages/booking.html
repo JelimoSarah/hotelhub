@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/booking.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Booking</title>
+</head>
+
+<body>
+    <header class="home">
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid" id="nav">
+                    <a class="navbar-brand" id="nav-a">Hotel-Hub</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#hotels">Hotels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#testimo">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#Contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/booking.html">Bookings</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#Blog">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <header>
+        <div class="container-sm">
+            <div class="header-1">
+                <h2>Hotels Booking</h2>
+
+            </div>
+            <div class="details">
+                <div class="row">
+                    <div class="col-75">
+                        <div class="container" id="cont">
+                            <form action="https://formspree.io/f/mzbovbzr" name="getdata" method="post">
+
+                                <div class="row">
+                                    <div class="col-50">
+                                        <h3>Booking Details</h3>
+                                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                        <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                        <input type="text" id="email" name="email" placeholder="john@example.com">
+                                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                        <input type="text" id="adr" name="address" placeholder="">
+                                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                                        <input type="text" id="city" name="city" placeholder="Nairobi">
+
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <label for="state">State</label>
+                                                <input type="text" id="state" name="state" placeholder="">
+                                            </div>
+                                            <div class="col-50">
+                                                <label for="zip">Zip</label>
+                                                <input type="text" id="zip" name="zip" placeholder="10001">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <label for="birthday">Check In:</label>
+                                                <input type="date" id="birthday" name="birthday">
+                                            </div>
+                                            <div class="col-50">
+                                                <label for="birthday">Check Out:</label>
+                                                <input type="date" id="birthday" name="birthday">
+                                            </div>
+
+                                            <div class="rooms">
+                                                <p>Room Preference:</p>
+                                                  <input type="radio" name="preference" value="Standard">
+                                                  <label for="Standard">Standard</label><br>
+                                                  <input type="radio" name="preference" value="Deluxe">
+                                                  <label for="Deluxe">Deluxe</label><br>
+                                                  <input type="radio" id="Suite
+                                                " name="preference" value="Suite">
+                                                  <label for="Suite">Suite
+                                                </label>
+                                            </div>
+                                            <div class="people">
+                                                <label for="cars">Number of people Expected:</label>
+                                                <input type="number" id="quantity" name="quantity" min="1" max="5">
+                                            </div>
+                                            <label for="story" id="story">Special Instructions?</label>
+
+                                            <textarea id="story" name="story" rows="5" cols="33"></textarea>
+
+
+
+                                            <!-- <div class="row-3">
+                    <div class="col-52">
+                        <label for="cars">Check in Time:</label>
+                        <select name="cars" id="cars">
+                          <option value="volvo">Morning</option>
+                          <option value="saab">Afternoon</option>
+                          <option value="opel">Evening</option>
+                        </select>
+                    </div>
+                    <div class="col-52">
+                        <label for="cars">Check out Time:</label>
+                        <select name="cars" id="cars">
+                            <option value="volvo">Morning</option>
+                            <option value="saab">Afternoon</option>
+                            <option value="opel">Evening</option>
+                        </select>
+                  </div> -->
+
+
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="col-50">
+                                        <h3>Payment</h3>
+                                        <label for="fname">Accepted Payment Methods</label>
+                                        <div class="icon-container">
+                                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                            <img src="../images/Installing-Lipa-Na-Mpesa-App-for-business-removebg-preview.png"
+                                                alt="">
+                                        </div>
+                                        <label for="cname">Name on Card</label>
+                                        <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                        <label for="ccnum">Credit card number</label>
+                                        <input type="text" id="ccnum" name="cardnumber"
+                                            placeholder="1111-2222-3333-4444">
+                                        <label for="expmonth">Exp Month</label>
+                                        <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <label for="expyear">Exp Year</label>
+                                                <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                            </div>
+                                            <div class="col-50">
+                                                <label for="cvv">CVV</label>
+                                                <input type="text" id="cvv" name="cvv" placeholder="352">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+          </label> -->
+                                <input type="submit" value="Submit" class="btn" id="submit-btn">
+                            </form>
+                        </div>
+                    </div>
+                    <!--   
+    <div class="col-25">
+      <div class="container">
+        <h4>Cart
+          <span class="price" style="color:black">
+            <i class="fa fa-shopping-cart"></i>
+            <b>4</b>
+          </span>
+        </h4>
+        <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+        <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+        <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+        <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+      </div>
+    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="footer">
+        <div class="container" id="footer-1">
+            <div class=" footer-2">
+                <h2>Contact Us</h2>
+                <p>Email: Calebkabaya7@gmail.com</p>
+                <p>Phone:+254748860959</p>
+            </div>
+            <div class=" footer-2">
+                <h2>Hotel</h2>
+                <p>About Us</p>
+                <p>Reviews</p>
+                <p>Get Directions</p>
+                <p>Nearby Visits</p>
+                <p>Contact Us</p>
+            </div>
+            <div class=" footer-2">
+                <h2>Customer Help</h2>
+                <p>Guest Support</p>
+                <p>Guest Feedback</p>
+                <p>FAQs</p>
+                <p>Offers</p>
+                <p>Location</p>
+            </div>
+            <div class=" footer-3">
+                <h2>Connect With Us</h2>
+                <i class="fa fa-facebook" aria-hidden="true">Facebook</i>
+                <i class="fa fa-instagram" aria-hidden="true">Instagram</i>
+                <i class="fa fa-twitter" aria-hidden="true">Twitter</i>
+                <i class="fa fa-whatsapp" aria-hidden="true">WhatsApp</i>
+                <i class="fa fa-youtube-play" aria-hidden="true">YouTube</i>
+
+            </div>
+
+
+        </div>
+
+        </div>
+
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer bg-dark text-white font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2022 Copyright: Hotel-Hub
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../JS/booking.js"></script>
+</body>
+
+</html>
